@@ -3,8 +3,18 @@
 
 int main()
 {
+  //追加
+  printf("What is your name?\n");
+
+  char name[20];
+  printf(">");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
+  //
+  
   printf("Rolling dice...\n");
 
+  
   int x,y;
   int total;
   
