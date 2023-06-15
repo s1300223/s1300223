@@ -29,13 +29,15 @@ int main()
 
   printf("Total value: %d\n",total);
 
+
+  printf("%s",name);
   if(total > 7)
     {
       printf(" won!\n");
     }
   else
     {
-      printf(" lose!\n");
+      printf(" lost!\n");
     }
   
   
