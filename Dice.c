@@ -18,6 +18,17 @@ int main()
   total = x + y;
 
   printf("Total value: %d\n",total);
+
+  if(total > 7)
+    {
+      printf(" won!\n");
+    }
+  else
+    {
+      printf(" lose!\n");
+    }
+  
+  
   
   return 0;
   
